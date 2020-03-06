@@ -11,7 +11,6 @@ D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.pdb
 D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.Views.dll
 D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.Views.pdb
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csprojAssemblyReference.cache
-D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.MvcApplicationPartsAssemblyInfo.cache
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.RazorAssemblyInfo.cache
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.RazorAssemblyInfo.cs
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.AssemblyInfoInputs.cache
@@ -34,3 +33,13 @@ D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\SignalR
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.dll
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.pdb
 D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CopyComplete
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.Azure.SignalR.Common.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.Azure.SignalR.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.Azure.SignalR.Protocols.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\repos\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\repos\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.MvcApplicationPartsAssemblyInfo.cache

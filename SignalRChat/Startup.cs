@@ -25,7 +25,10 @@ namespace SignalRChat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSignalR();
+            // This runs it locally on your machine
+            //services.AddSignalR().;
+            // This runs it on the Azure Signal service
+            services.AddSignalR().AddAzureSignalR("Endpoint=https://popeye.service.signalr.net;AccessKey=K4RBNJXOpLxM/QnDJuF6CxN9vN8foVqXAXdWEp4MqFE=;Version=1.0;"); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,12 +51,17 @@ namespace SignalRChat
             app.UseRouting();
 
             app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
+            // This allows it to use the SignalR Azure service
+            app.UseAzureSignalR(Builder =>
             {
-                endpoints.MapRazorPages();
-                endpoints.MapHub<ChatHub>("/chathub");
+                Builder.MapHub<ChatHub>("/chathub");
             });
+            // This runs it locally on your machine
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapRazorPages();
+            //    endpoints.MapHub<ChatHub>("/chathub");
+            //});
         }
     }
 }
